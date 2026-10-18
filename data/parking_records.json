@@ -1,0 +1,75 @@
+{
+  "records": [],
+  "staffUsers": [
+    {
+      "id": "admin-1",
+      "fullName": "Otomasyon Birimi",
+      "username": "otomasyon",
+      "phone": "05303200274",
+      "role": "admin",
+      "badgeNumber": "YÖN-01",
+      "shift": "Merkez Yönetim",
+      "active": true,
+      "createdAt": "2026-10-18T20:09:03.779Z"
+    },
+    {
+      "id": "staff-1792357346501",
+      "fullName": "Emrah Aydın",
+      "username": "emrahaydin",
+      "phone": "05060991008",
+      "role": "staff",
+      "badgeNumber": "Garaj-1",
+      "shift": "Gece Vardiyası (00:00 - 08:00)",
+      "active": true,
+      "createdAt": "2026-10-18T21:02:26.501Z"
+    }
+  ],
+  "mallConfig": {
+    "mallName": "AVM Otopark Yönetim Sistemi",
+    "floors": [
+      "P-2",
+      "P-3",
+      "P-4",
+      "P-5"
+    ],
+    "columnLetters": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "M"
+    ],
+    "vehicleTypes": [
+      {
+        "id": "automobile",
+        "label": "Otomobil",
+        "icon": "Car"
+      },
+      {
+        "id": "motorcycle",
+        "label": "Motosiklet",
+        "icon": "Bike"
+      },
+      {
+        "id": "van",
+        "label": "Hafif Ticari / Van",
+        "icon": "Truck"
+      }
+    ],
+    "completeButtonText": "Araç Bitti (Bugünkü Girişi Bitir)",
+    "saveButtonText": "ARACI KAYDET",
+    "whatsappPhone": "05303200274"
+  },
+  "auditSessions": {
+    "2026-10-18": {
+      "completed": false,
+      "isLockedForStaff": false,
+      "isEntryPermitted": true,
+      "authorizedStaffId": "staff-1792357346501",
+      "authorizedStaffName": "Emrah Aydın",
+      "notes": "Otomasyon Birimi tarafından Emrah Aydın araç ekleme izni verildi."
+    }
+  }
+}
